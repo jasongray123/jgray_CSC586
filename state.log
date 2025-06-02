@@ -1,0 +1,97 @@
+Monday 22 2025 06:07:34 PM
+ 18:07:34 up 23:24,  1 user,  load average: 0.00, 0.00, 0.00
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Jun01 ?        00:00:06 /sbin/init
+root           2       0  0 Jun01 ?        00:00:00 [kthreadd]
+root           3       2  0 Jun01 ?        00:00:00 [rcu_gp]
+root           4       2  0 Jun01 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 Jun01 ?        00:00:00 [kworker/0:0H-kblockd]
+root           8       2  0 Jun01 ?        00:00:00 [mm_percpu_wq]
+root           9       2  0 Jun01 ?        00:00:00 [ksoftirqd/0]
+root          10       2  0 Jun01 ?        00:00:02 [rcu_sched]
+root          11       2  0 Jun01 ?        00:00:00 [migration/0]
+root          12       2  0 Jun01 ?        00:00:00 [idle_inject/0]
+root          14       2  0 Jun01 ?        00:00:00 [cpuhp/0]
+root          15       2  0 Jun01 ?        00:00:00 [kdevtmpfs]
+root          16       2  0 Jun01 ?        00:00:00 [netns]
+root          17       2  0 Jun01 ?        00:00:00 [rcu_tasks_kthre]
+root          18       2  0 Jun01 ?        00:00:00 [kauditd]
+root          19       2  0 Jun01 ?        00:00:00 [xenbus]
+root          20       2  0 Jun01 ?        00:00:00 [xenwatch]
+root          21       2  0 Jun01 ?        00:00:00 [khungtaskd]
+root          22       2  0 Jun01 ?        00:00:00 [oom_reaper]
+root          23       2  0 Jun01 ?        00:00:00 [writeback]
+root          24       2  0 Jun01 ?        00:00:00 [kcompactd0]
+root          25       2  0 Jun01 ?        00:00:00 [ksmd]
+root          71       2  0 Jun01 ?        00:00:00 [kintegrityd]
+root          72       2  0 Jun01 ?        00:00:00 [kblockd]
+root          73       2  0 Jun01 ?        00:00:00 [blkcg_punt_bio]
+root          74       2  0 Jun01 ?        00:00:00 [xen-balloon]
+root          75       2  0 Jun01 ?        00:00:00 [tpm_dev_wq]
+root          76       2  0 Jun01 ?        00:00:00 [ata_sff]
+root          77       2  0 Jun01 ?        00:00:00 [md]
+root          78       2  0 Jun01 ?        00:00:00 [edac-poller]
+root          79       2  0 Jun01 ?        00:00:00 [devfreq_wq]
+root          80       2  0 Jun01 ?        00:00:00 [watchdogd]
+root          83       2  0 Jun01 ?        00:00:00 [kswapd0]
+root          84       2  0 Jun01 ?        00:00:00 [ecryptfs-kthrea]
+root          86       2  0 Jun01 ?        00:00:00 [kthrotld]
+root          88       2  0 Jun01 ?        00:00:00 [khvcd]
+root          89       2  0 Jun01 ?        00:00:00 [vfio-irqfd-clea]
+root          90       2  0 Jun01 ?        00:00:00 [ipv6_addrconf]
+root          93       2  0 Jun01 ?        00:00:00 [kworker/0:1H-kblockd]
+root         101       2  0 Jun01 ?        00:00:00 [kstrp]
+root         104       2  0 Jun01 ?        00:00:00 [kworker/u3:0-xprtiod]
+root         117       2  0 Jun01 ?        00:00:00 [charger_manager]
+root         164       2  0 Jun01 ?        00:00:00 [raid5wq]
+root         193       2  0 Jun01 ?        00:00:00 [jbd2/xvda1-8]
+root         194       2  0 Jun01 ?        00:00:00 [ext4-rsv-conver]
+root         329       1  0 Jun01 ?        00:00:04 /lib/systemd/systemd-journald
+root         334       2  0 Jun01 ?        00:00:00 [rpciod]
+root         336       2  0 Jun01 ?        00:00:00 [xprtiod]
+root         372       1  0 Jun01 ?        00:00:01 /lib/systemd/systemd-udevd
+_rpc         378       1  0 Jun01 ?        00:00:00 /sbin/rpcbind -f -w -l -h 127.0.0.1 -h ::1
+root         392       2  0 Jun01 ?        00:00:00 [cryptd]
+root         411       1  0 Jun01 ?        00:00:07 /usr/lib/accountsservice/accounts-daemon
+message+     412       1  0 Jun01 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         432       1  0 Jun01 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       433       1  0 Jun01 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         435       1  0 Jun01 ?        00:00:00 /usr/sbin/smartd -n
+root         436       1  0 Jun01 ?        00:00:00 /lib/systemd/systemd-logind
+root         460       1  0 Jun01 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+systemd+     544       1  0 Jun01 ?        00:00:00 /lib/systemd/systemd-resolved
+ntp          647       1  0 Jun01 ?        00:00:13 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 109:114
+root         663       1  0 Jun01 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         689       1  0 Jun01 ?        00:00:01 /usr/sbin/cron -f
+root         708       1  0 Jun01 hvc0     00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 hvc0 vt220
+root         713       1  0 Jun01 ?        00:00:00 /usr/local/libexec/pubsubd -e /var/run/pubsubd.pid
+root         719       1  0 Jun01 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+systemd+     729       1  0 Jun01 ?        00:00:03 /lib/systemd/systemd-networkd
+root         817       1  0 Jun01 ?        00:00:42 /usr/libexec/emulab/slothd -s boss.wisc.cloudlab.us -i 300 -g 5 -l 1 -c 5 -n 1000
+root         819       1  0 Jun01 ?        00:00:03 /usr/bin/perl -w /usr/libexec/emulab/watchdog start
+root         863       2  0 Jun01 ?        00:00:00 [nfsiod]
+root         866       2  0 Jun01 ?        00:00:00 [kworker/u3:2-xprtiod]
+root        1604       1  0 Jun01 ?        00:00:00 /usr/libexec/emulab/emulab-syncd -v -l /var/emulab/logs/syncserver.debug
+root        1625       1  0 Jun01 ?        00:00:00 /usr/bin/perl -w /usr/libexec/emulab/rc/rc.progagent boot
+geniuser    1627    1625  0 Jun01 ?        00:00:00 /usr/libexec/emulab/program-agent -e cloud-edu-PG0/jgraywcu-259088 -s 128.105.144.193 -l /var/emulab/logs/progagent.debug -v node -t /var/tmp/progagent-token.1625 -d -i /var/run/progagent.pid -k /var/emulab/boot/eventkey -c /var/emulab/boot/progagents
+root        1655       1  0 Jun01 ?        00:00:00 linktest -e cloud-edu-PG0/jgraywcu-259088 -s 128.105.144.193 -l /var/emulab/logs/linktest.debug -i /var/run/linktest.pid -k /var/emulab/boot/eventkey -u geniuser
+root        5684       2  0 06:36 ?        00:00:04 [kworker/0:2-cgroup_destroy]
+root        8523     663  0 17:05 ?        00:00:00 sshd: jgraywcu [priv]
+jgraywcu    8531       1  0 17:05 ?        00:00:00 /lib/systemd/systemd --user
+root        8532       2  0 17:05 ?        00:00:00 [kworker/0:0-events]
+jgraywcu    8533    8531  0 17:05 ?        00:00:00 (sd-pam)
+jgraywcu    8559    8523  0 17:05 ?        00:00:01 sshd: jgraywcu@pts/0
+jgraywcu    8560    8559  0 17:05 pts/0    00:00:00 -bash
+root        8732       2  0 17:40 ?        00:00:00 [kworker/u2:2-events_unbound]
+root        8871       2  0 18:01 ?        00:00:00 [kworker/u2:0-events_power_efficient]
+jgraywcu    8932    8560  0 18:07 pts/0    00:00:00 -bash
+jgraywcu    8935    8932  0 18:07 pts/0    00:00:00 ps -ef
+
+Mon 02 Jun 2025 06:07:34 PM CDT
+total 28
+-rwxr-xr-x 1 jgraywcu cloud-edu-PG0  272 Jun  2 17:38 movelog.sh
+-rw-r--r-- 1 jgraywcu cloud-edu-PG0  397 Jun  2 17:37 profile.py
+-rw-r--r-- 1 jgraywcu cloud-edu-PG0   34 Jun  2 17:37 README.md
+-rwxr-xr-x 1 jgraywcu cloud-edu-PG0  225 Jun  2 18:06 stateGit.sh
+-rw-r--r-- 1 jgraywcu cloud-edu-PG0 6924 Jun  2 18:07 state.log
+-rwxr-xr-x 1 jgraywcu cloud-edu-PG0  165 Jun  2 17:38 state.sh
